@@ -3,7 +3,8 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qcom.power.rc \
     init.recovery.qcom.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.qcom.ims.rc
 
 ifeq ($(TARGET_BUILD_VARIANT),user)
 PRODUCT_PACKAGES += \
