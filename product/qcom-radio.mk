@@ -13,7 +13,21 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.qmi.adb_logmask=0 \
     persist.radio.apm_sim_not_pwdn=1 \
     ro.telephony.call_ring.multiple=false \
-    ro.use_data_netmgrd=true
+    ro.use_data_netmgrd=true \   
+service.qti.ims.enabled=1 \
+persist.volte_enalbed_by_hw=1 \
+net.lte.volte_call_capable=true \
+persist.ims.volte=true \
+persist.radio.jbims=0 \
+persist.radio.imsregrequired=1 \
+persist.dbg.volte_avail_ovr=1 \
+persist.dbg.vt_avail_ovr=1 \
+persist.radio.ROTATION_ENABLE=1 \
+persist.radio.VT_ENABLE=1 \
+persist.radio.VT_HYBRID_ENABLE=1 \
+persist.radio.VT_USE_MDM_TIME=0 \
+persist.radio.calls.on.ims=true \
+DEVICE_PROVISIONED=1
 
 # RIL
 PRODUCT_PACKAGES += \
